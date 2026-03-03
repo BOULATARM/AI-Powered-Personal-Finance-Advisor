@@ -37,7 +37,7 @@ AI-Powered Personal Finance Advisor is a Full-Stack web application that helps u
 
 ---
 
-## ⚙️ Installation (Without Docker)
+## ⚙️ Installation 
 
 ### 1️⃣ Clone the repository
 
