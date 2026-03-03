@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 📊 AI-Powered Personal Finance Advisor (Deep Learning)
 
 ## 🧠 Project Overview
@@ -48,6 +47,7 @@ This project combines Deep Learning, Backend API development, and a modern Front
 
 ## 📁 Project Structure
 
+```
 AI-Powered-Personal-Finance-Advisor/
 │
 ├── backend/
