@@ -59,6 +59,7 @@ AI-Powered-Personal-Finance-Advisor/
 ├── frontend/
 │
 └── README.md
+```
 
 ---
 
@@ -66,38 +67,47 @@ AI-Powered-Personal-Finance-Advisor/
 
 ### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/BOULATARM/AI-Powered-Personal-Finance-Advisor.git
 cd AI-Powered-Personal-Finance-Advisor
+```
 
 ### 2️⃣ Backend Setup
 
+```bash
 cd backend
 python -m venv venv
 
-# Activate virtual environment
-# Windows:
+# Windows
 venv\Scripts\activate
 
-# Mac/Linux:
+# Mac/Linux
 # source venv/bin/activate
 
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
-Backend will run on:
+Backend runs on:
+
+```
 http://127.0.0.1:8000
+```
 
 ### 3️⃣ Frontend Setup
 
-Open a new terminal:
-
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-Frontend will run on:
+Frontend runs on:
+
+```
 http://localhost:3000
+```
 
 ---
 
@@ -105,27 +115,32 @@ http://localhost:3000
 
 ### 🔐 Authentication
 
-POST /api/auth/register/
+POST `/api/auth/register/`
 
+```json
 {
   "username": "user1",
   "email": "user@email.com",
   "password": "password123"
 }
+```
 
-POST /api/auth/login/
+POST `/api/auth/login/`
 
+```json
 {
   "username": "user1",
   "password": "password123"
 }
+```
 
 ---
 
 ### 📊 Deep Learning Prediction
 
-POST /api/predict/
+POST `/api/predict/`
 
+```json
 {
   "Income": 5000,
   "Age": 30,
@@ -143,6 +158,7 @@ POST /api/predict/
   "Occupation": "Professional",
   "City_Tier": "Tier_1"
 }
+```
 
 ---
 
@@ -167,15 +183,14 @@ POST /api/predict/
 
 ## 📈 Future Improvements
 
-- Advanced financial dashboard with charts  
-- Monthly trend analysis  
-- Mobile application version  
-- Smart financial alerts  
-- Bank API integration  
+- 📊 Advanced financial dashboard with charts  
+- 📉 Monthly trend analysis  
+- 📱 Mobile application version  
+- 🔔 Smart financial alerts  
+- 🏦 Bank API integration  
 
 ---
 
 ## 👨‍💻 Author
 
 Developed by BOULATARM
-EOF
